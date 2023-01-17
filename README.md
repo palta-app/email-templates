@@ -10,6 +10,8 @@ while `code.json` is the json you need to upload to AWS SES (Simple Email Servic
 
 for images use `static.palta.app` bucket in Palta S3
 
+Icons were taken from https://fontawesome.com/
+
 ---
 
 other references:
