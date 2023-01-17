@@ -37,6 +37,7 @@
         }
         img {
           -ms-interpolation-mode: bicubic;
+          margin-inline: 0.5em;
         }
       </style>
     <![endif]-->
@@ -252,7 +253,7 @@
                                         valign="top"
                                         align="left"
                                       >
-                                        <a href="https://wollet.app"
+                                        <a href="https://palta.app"
                                           ><img
                                             class="max-width"
                                             border="0"
@@ -268,10 +269,10 @@
                                               width: 192px;
                                             "
                                             width="192"
-                                            alt="wollet"
+                                            alt="palta"
                                             data-proportionally-constrained="true"
                                             data-responsive="true"
-                                            src="http://cdn.mcauto-images-production.sendgrid.net/5c87bf76018ebb0a/de64509e-86f7-4de5-b565-ee94798715c8/534x144.png"
+                                            src="https://s3.amazonaws.com/static.palta.app/logotipo.svg"
                                         /></a>
                                       </td>
                                     </tr>
@@ -316,7 +317,8 @@
                                                 text-align: inherit;
                                               "
                                             >
-                                              Hola <strong>{{name}}</strong>
+                                              Hola
+                                              <strong>{{name}} !</strong> 👋
                                             </div>
                                             <div
                                               style="
@@ -332,14 +334,24 @@
                                                 text-align: inherit;
                                               "
                                             >
-                                              👍 Te contamos que dentro de
-                                              Wollet no usamos contraseñas, en
-                                              cambio para darte una<strong>
+                                              ⚠️ Nadie de
+                                              <strong>Palta</strong> te va a
+                                              solicitar este código.
+                                              <strong
+                                                >¡No lo compartas!
+                                              </strong>
+                                              <br />
+                                              <br />
+                                              👍 Te contamos que dentro de Palta
+                                              no usamos contraseñas, en cambio
+                                              para darte una<strong>
                                                 mayor seguridad</strong
                                               >
                                               utilizamos
                                               <strong>códigos unicos</strong>
-                                              para que ingreses a tu cuenta.<br />
+                                              para que ingreses a tu cuenta.
+                                              <br />
+                                              <br />
                                               ⏱️ Estos códigos<strong>
                                                 vencen en 10 minutos</strong
                                               >
@@ -354,13 +366,14 @@
                                               <span
                                                 class="code"
                                                 style="
+                                                  font-size: larger;
                                                   background-color: #bae6fa;
                                                   font-family: 'Courier New',
                                                     Courier, monospace;
-                                                  padding-top: 2px;
-                                                  padding-right: 5px;
-                                                  padding-bottom: 2px;
-                                                  padding-left: 5px;
+                                                  padding-top: 4px;
+                                                  padding-right: 9px;
+                                                  padding-bottom: 4px;
+                                                  padding-left: 9px;
                                                   border-radius: 5px;
                                                 "
                                                 ><strong>{{code}}</strong></span
@@ -403,7 +416,7 @@
                                               <tr>
                                                 <td
                                                   align="center"
-                                                  bgcolor="#434bd9"
+                                                  bgcolor="#3E2CE2"
                                                   class="inner-td"
                                                   style="
                                                     border-radius: 6px;
@@ -415,14 +428,14 @@
                                                   <a
                                                     href="{{url}}"
                                                     style="
-                                                      background-color: #434bd9;
-                                                      border: 1px solid #434bd9;
-                                                      border-color: #434bd9;
+                                                      font-size: large;
+                                                      background-color: #3e2ce2;
+                                                      border: 1px solid #3e2ce2;
+                                                      border-color: #3e2ce2;
                                                       border-radius: 10px;
                                                       border-width: 1px;
                                                       color: #ffffff;
                                                       display: inline-block;
-                                                      font-size: 15px;
                                                       font-weight: normal;
                                                       letter-spacing: 0px;
                                                       line-height: normal;
@@ -431,6 +444,7 @@
                                                       text-align: center;
                                                       text-decoration: none;
                                                       border-style: solid;
+                                                      font-weight: bold;
                                                       font-family: helvetica,
                                                         sans-serif;
                                                     "
@@ -479,16 +493,7 @@
                                               <span style="color: #6b6b6b"
                                                 >Solicitado desde dispositivo:
                                                 {{device}}<br />
-                                                Nadie de </span
-                                              ><span style="color: #6b6b6b"
-                                                ><strong>Wollet</strong></span
-                                              ><span style="color: #6b6b6b">
-                                                te preguntara por este código, </span
-                                              ><span style="color: #6b6b6b"
-                                                ><strong
-                                                  >no pases este código</strong
-                                                ></span
-                                              >
+                                              </span>
                                             </div>
                                             <div></div>
                                           </div>
@@ -532,13 +537,13 @@
                                                   font-family: helvetica,
                                                     sans-serif;
                                                 "
-                                                >Cualquier duda que tengas podes
+                                                >Cualquier duda que tengas
                                                 preguntarnos via mail a
                                                 <a
-                                                  href="mailto:ayuda@wollet.app"
+                                                  href="mailto:ayuda@palta.app"
                                                   target="_blank"
                                                   rel="noopener noreferrer"
-                                                  >ayuda@wollet.app</a
+                                                  >ayuda@palta.app</a
                                                 >
                                                 o via
                                                 <a
@@ -568,7 +573,7 @@
                                                   font-family: helvetica,
                                                     sans-serif;
                                                 "
-                                                ><strong>Wollet</strong></span
+                                                ><strong>Palta</strong></span
                                               >
                                             </div>
                                             <div></div>
@@ -759,7 +764,7 @@
                                                         color: #000000;
                                                         font-weight: bold;
                                                       "
-                                                      href="https://ayuda.wollet.app/politicas-de-privacidad"
+                                                      href="https://ayuda.palta.app/politicas-de-privacidad"
                                                       target="_blank"
                                                       rel="noopener"
                                                       >como cuidamos tu
@@ -777,12 +782,12 @@
                                                         color: #000000;
                                                         font-weight: bold;
                                                       "
-                                                      href="https://ayuda.wollet.app/terminos-y-condiciones"
+                                                      href="https://ayuda.palta.app/terminos-y-condiciones"
                                                       target="_blank"
                                                       rel="noopener"
                                                     >
                                                       Terminos y Condiciones de
-                                                      Wollet</a
+                                                      Palta</a
                                                     ></span
                                                   >
                                                 </p>
@@ -971,7 +976,7 @@
                                                     >¿Tenés algún problema con
                                                     tu cuenta?
                                                     <a
-                                                      href="https://ayuda.wollet.app"
+                                                      href="https://ayuda.palta.app"
                                                       target="_blank"
                                                       style="
                                                         text-decoration: underline;
@@ -1110,17 +1115,18 @@
                                                             valign="top"
                                                           >
                                                             <a
-                                                              href="https://facebook.com/wollet.app"
+                                                              href="https://facebook.com/palta.app"
                                                               target="_blank"
                                                               ><img
                                                                 width="32"
                                                                 height="32"
-                                                                src="https://images.wollet.app/statics/mail/facebook@2x.png"
+                                                                src="https://s3.amazonaws.com/static.palta.app/icons/facebook.svg"
                                                                 alt="Facebook"
                                                                 title="Facebook"
                                                                 style="
                                                                   text-decoration: none;
                                                                   -ms-interpolation-mode: bicubic;
+                                                                  margin-inline: 0.5em;
                                                                   height: auto;
                                                                   border: 0;
                                                                   display: block;
@@ -1138,17 +1144,18 @@
                                                             valign="top"
                                                           >
                                                             <a
-                                                              href="https://twitter.com/wollet.app"
+                                                              href="https://twitter.com/palta.app"
                                                               target="_blank"
                                                               ><img
                                                                 width="32"
                                                                 height="32"
-                                                                src="https://images.wollet.app/statics/mail/twitter@2x.png"
+                                                                src="https://s3.amazonaws.com/static.palta.app/icons/twitter.svg"
                                                                 alt="Twitter"
                                                                 title="Twitter"
                                                                 style="
                                                                   text-decoration: none;
                                                                   -ms-interpolation-mode: bicubic;
+                                                                  margin-inline: 0.5em;
                                                                   height: auto;
                                                                   border: 0;
                                                                   display: block;
@@ -1166,17 +1173,18 @@
                                                             valign="top"
                                                           >
                                                             <a
-                                                              href="https://instagram.com/wollet.app"
+                                                              href="https://instagram.com/palta.app"
                                                               target="_blank"
                                                               ><img
                                                                 width="32"
                                                                 height="32"
-                                                                src="https://images.wollet.app/statics/mail/instagram@2x.png"
+                                                                src="https://s3.amazonaws.com/static.palta.app/icons/instagram.svg"
                                                                 alt="Instagram"
                                                                 title="Instagram"
                                                                 style="
                                                                   text-decoration: none;
                                                                   -ms-interpolation-mode: bicubic;
+                                                                  margin-inline: 0.5em;
                                                                   height: auto;
                                                                   border: 0;
                                                                   display: block;
@@ -1194,17 +1202,18 @@
                                                             valign="top"
                                                           >
                                                             <a
-                                                              href="https://linkedin.com/wollet.app"
+                                                              href="https://linkedin.com/palta.app"
                                                               target="_blank"
                                                               ><img
                                                                 width="32"
                                                                 height="32"
-                                                                src="https://images.wollet.app/statics/mail/linkedin@2x.png"
+                                                                src="https://s3.amazonaws.com/static.palta.app/icons/linkedin-in.svg"
                                                                 alt="LinkedIn"
                                                                 title="LinkedIn"
                                                                 style="
                                                                   text-decoration: none;
                                                                   -ms-interpolation-mode: bicubic;
+                                                                  margin-inline: 0.5em;
                                                                   height: auto;
                                                                   border: 0;
                                                                   display: block;
@@ -1227,12 +1236,13 @@
                                                               ><img
                                                                 width="32"
                                                                 height="32"
-                                                                src="https://images.wollet.app/statics/mail/whatsapp@2x.png"
+                                                                src="https://s3.amazonaws.com/static.palta.app/icons/whatsapp.svg"
                                                                 alt="whatsapp"
                                                                 title="whatsapp"
                                                                 style="
                                                                   text-decoration: none;
                                                                   -ms-interpolation-mode: bicubic;
+                                                                  margin-inline: 0.5em;
                                                                   height: auto;
                                                                   border: 0;
                                                                   display: block;
@@ -1337,14 +1347,13 @@
                                                   "
                                                 >
                                                   <span style="font-size: 11px"
-                                                    >2021 © Wollet Derechos
+                                                    >2023 © Palta Derechos
                                                     Reservados.</span
                                                   ><br /><span
                                                     style="font-size: 11px"
-                                                    >Wollet SAS, Campus
-                                                    Olegario, Olegario Andrade
-                                                    315, Mendoza, M5500
-                                                    BDP</span
+                                                    >Palta SAS, Campus Olegario,
+                                                    Olegario Andrade 315,
+                                                    Mendoza, M5500 BDP</span
                                                   >
                                                 </p>
                                                 <p
