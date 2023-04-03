@@ -20,3 +20,13 @@ other references:
 primary color (green): #05DC7E
 secondary color (blue): #3E2CE2
 ```
+
+---
+
+# Upload tempaltes
+
+para subir los templates debes hacerlo desde aws-cli:
+```
+aws ses create-template --cli-input-json file://<folder>/code.json
+```
+reemplaza <folder> con el template que quieras subir
